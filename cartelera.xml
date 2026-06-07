@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera_peliculas>
+
+    <pelicula id="1">
+        <titulo>Arrival</titulo>
+        <actores>Amy Adams, Jeremy Renner, Forest Whitaker</actores>
+        <sinopsis>Cuando misteriosas naves espaciales aterrizan en todo el mundo, un equipo de élite liderado por la lingüista Louise Banks intenta descifrar su idioma antes de que la humanidad desate una guerra global.</sinopsis>
+        <categoria>Ciencia Ficción</categoria>
+        <duracion>116 min</duracion>
+        <horarios>15:30, 18:15, 21:00</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-09, 2026-06-11, 2026-06-12</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="2">
+        <titulo>Shrek 2</titulo>
+        <actores>Mike Myers, Eddie Murphy, Cameron Diaz</actores>
+        <sinopsis>Los padres de la Princesa Fiona invitan a ella y a Shrek a cenar para celebrar su matrimonio, pero desconocen por completo que los recién casados son ogros.</sinopsis>
+        <categoria>Animación</categoria>
+        <duracion>92 min</duracion>
+        <horarios>15:00, 17:15, 19:30</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-10, 2026-06-12, 2026-06-13</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="3">
+        <titulo>Black Swan</titulo>
+        <actores>Natalie Portman, Mila Kunis, Vincent Cassel</actores>
+        <sinopsis>Una bailarina obsesionada con la perfección artística comienza a perder su frágil control sobre la realidad cuando consigue el papel principal en El Lago de los Cisnes.</sinopsis>
+        <categoria>Drama</categoria>
+        <duracion>108 min</duracion>
+        <horarios>16:00, 18:30, 21:00</horarios>
+        <fechas_transmision>2026-06-09, 2026-06-11, 2026-06-13, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="4">
+        <titulo>City of God</titulo>
+        <actores>Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen</actores>
+        <sinopsis>En los suburbios de Río de Janeiro, los caminos de dos niños divergen a medida que crecen: uno se convierte en fotógrafo y el otro en un despiadado traficante de drogas.</sinopsis>
+        <categoria>Acción</categoria>
+        <duracion>130 min</duracion>
+        <horarios>15:15, 18:00, 20:45</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-10, 2026-06-11, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="5">
+        <titulo>Dune</titulo>
+        <actores>Timothée Chalamet, Zendaya, Oscar Isaac</actores>
+        <sinopsis>El hijo de una familia noble se encarga de proteger el elemento vital y más valioso de la galaxia, que se encuentra en el inhóspito planeta desértico de Arrakis.</sinopsis>
+        <categoria>Ciencia Ficción</categoria>
+        <duracion>155 min</duracion>
+        <horarios>15:30, 18:30, 21:15</horarios>
+        <fechas_transmision>2026-06-09, 2026-06-10, 2026-06-12, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="6">
+        <titulo>Eternal Sunshine of the Spotless Mind</titulo>
+        <actores>Jim Carrey, Kate Winslet, Kirsten Dunst</actores>
+        <sinopsis>Tras una dolorosa ruptura, una expareja decide someterse a un procedimiento médico clínico para borrar todos los recuerdos que tienen el uno del otro.</sinopsis>
+        <categoria>Romance</categoria>
+        <duracion>108 min</duracion>
+        <horarios>16:15, 18:45, 21:15</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-11, 2026-06-12, 2026-06-13</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="7">
+        <titulo>Hereditary</titulo>
+        <actores>Toni Collette, Alex Wolff, Milly Shapiro</actores>
+        <sinopsis>Tras la muerte de la matriarca de la familia Graham, su hija y nietos comienzan a desentrañar secretos oscuros y aterradores sobre su linaje, tratando de escapar del siniestro destino que han heredado.</sinopsis>
+        <categoria>Terror</categoria>
+        <duracion>127 min</duracion>
+        <horarios>15:00, 17:30, 20:00</horarios>
+        <fechas_transmision>2026-06-09, 2026-06-10, 2026-06-13, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="8">
+        <titulo>Mean Girls</titulo>
+        <actores>Lindsay Lohan, Rachel McAdams, Tina Fey</actores>
+        <sinopsis>Cady Heron es un éxito entre Las Plásticas, el grupo de chicas más populares de su nueva escuela, hasta que comete el error de enamorarse del exnovio de la líder del grupo.</sinopsis>
+        <categoria>Comedia</categoria>
+        <duracion>97 min</duracion>
+        <horarios>15:30, 17:45, 20:00</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-09, 2026-06-12, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="9">
+        <titulo>In the Mood for Love</titulo>
+        <actores>Tony Leung, Maggie Cheung</actores>
+        <sinopsis>Dos vecinos en el Hong Kong de la década de 1960 forman un fuerte vínculo después de sospechar que sus respectivos cónyuges tienen aventuras extramatrimoniales.</sinopsis>
+        <categoria>Romance</categoria>
+        <duracion>98 min</duracion>
+        <horarios>16:00, 18:15, 20:30</horarios>
+        <fechas_transmision>2026-06-10, 2026-06-11, 2026-06-13, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="10">
+        <titulo>Mysterious Skin</titulo>
+        <actores>Joseph Gordon-Levitt, Brady Corbet, Michelle Trachtenberg</actores>
+        <sinopsis>Dos jóvenes muy diferentes, un estafador adolescente y un chico obsesionado con los extraterrestres, ven cómo sus vidas se cruzan mientras lidian con el mismo trauma infantil.</sinopsis>
+        <categoria>Drama</categoria>
+        <duracion>105 min</duracion>
+        <horarios>15:15, 17:40, 20:10</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-10, 2026-06-12, 2026-06-13</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="11">
+        <titulo>Pitch Perfect</titulo>
+        <actores>Anna Kendrick, Rebel Wilson, Brittany Snow</actores>
+        <sinopsis>Una estudiante universitaria de primer año se une a un grupo a capella femenino de la escuela y las ayuda a renovar su estilo para ganar el campeonato nacional.</sinopsis>
+        <categoria>Comedia</categoria>
+        <duracion>112 min</duracion>
+        <horarios>15:45, 18:00, 20:15</horarios>
+        <fechas_transmision>2026-06-09, 2026-06-11, 2026-06-12, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="12">
+        <titulo>Requiem for a Dream</titulo>
+        <actores>Jared Leto, Jennifer Connelly, Ellen Burstyn</actores>
+        <sinopsis>Las utopías inducidas por las drogas de cuatro personajes de Coney Island se hacen añicos cuando sus adicciones se vuelven más fuertes y sus realidades se desmoronan en una espiral destructiva.</sinopsis>
+        <categoria>Drama</categoria>
+        <duracion>102 min</duracion>
+        <horarios>16:30, 19:00, 21:15</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-09, 2026-06-11, 2026-06-13</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="13">
+        <titulo>As Above So Below</titulo>
+        <actores>Perdita Weeks, Ben Feldman, Edwin Hodge</actores>
+        <sinopsis>Un equipo de exploradores se aventura en las catacumbas ocultas debajo de París, revelando el oscuro secreto que yace dentro de esta ciudad de los muertos y enfrentándose a sus propios demonios.</sinopsis>
+        <categoria>Terror</categoria>
+        <duracion>93 min</duracion>
+        <horarios>15:00, 17:00, 19:15</horarios>
+        <fechas_transmision>2026-06-10, 2026-06-12, 2026-06-13, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="14">
+        <titulo>Twin Peaks</titulo>
+        <actores>Sheryl Lee, Ray Wise, Kyle MacLachlan</actores>
+        <sinopsis>Una precuela de la famosa serie de televisión, que detalla los últimos y misteriosos siete días de la vida de Laura Palmer en el extraño pueblo de Twin Peaks.</sinopsis>
+        <categoria>Terror</categoria>
+        <duracion>134 min</duracion>
+        <horarios>15:30, 18:15, 21:00</horarios>
+        <fechas_transmision>2026-06-08, 2026-06-09, 2026-06-10, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+    <pelicula id="15">
+        <titulo>Kung Fu Panda</titulo>
+        <actores>Jack Black, Dustin Hoffman, Angelina Jolie</actores>
+        <sinopsis>Po, un panda torpe y perezoso, es elegido de manera imprevista para cumplir una antigua profecía y debe aprender kung fu para defender el Valle de la Paz de un temible villano.</sinopsis>
+        <categoria>Animación</categoria>
+        <duracion>92 min</duracion>
+        <horarios>15:00, 17:00, 19:00</horarios>
+        <fechas_transmision>2026-06-11, 2026-06-12, 2026-06-13, 2026-06-14</fechas_transmision>
+    </pelicula>
+
+</cartelera_peliculas>

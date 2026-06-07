@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de Expertos - Cinema Eclipse</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Cinema Eclipse</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cartelera.html">Cartelera</a></li>
+                <li><a href="dulceria.html">Dulcería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Reseñas de Expertos</h2>            
+            <div>
+                <label for="filtroCalificacion">Calificación:</label>
+                <select id="filtroCalificacion">
+                    <option value="Todos">Todas</option>
+                    <option value="5">5 Estrellas</option>
+                    <option value="4">4 Estrellas</option>
+                    <option value="3">3 Estrellas</option>
+                    <option value="3">2 Estrellas</option>
+                    <option value="3">1 Estrellas</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="filtroGenero">Género:</label>
+                <select id="filtroGenero">
+                    <option value="Todos">Todos</option>
+                    <option value="Accion">Acción</option>
+                    <option value="Terror">Terror</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="ordenFecha">Orden:</label>
+                <select id="ordenFecha">
+                    <option value="recientes">Más recientes primero</option>
+                    <option value="antiguas">Más antiguas primero</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div id="contenedorResenas">
+            </div>
+    </main>
+
+    <footer>
+        <p>Cinema Eclipse. Proyecto de Fundamentos de Tecnologías Web</p>
+    </footer>
+
+    <script src="resenas.js"></script>
+</body>
+</html>

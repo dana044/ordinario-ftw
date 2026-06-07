@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cinema Eclipse - Inicio</title>
+    <title>Dulcería - Cinema Eclipse</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -20,14 +20,24 @@
     </header>
 
     <main>
-        <h2>Bienvenido a Cinema Eclipse</h2>
-        <p>Proyección de las mejores peliculas</p>
-        <br>
-        <a href="cartelera.html" class="btn">Ver funciones de hoy</a>
+        <h2>Nuestra Dulcería</h2>
+        
+        <label for="filtroDulceria">Categoría:</label>
+        <select id="filtroDulceria">
+            <option value="Todos">Todos</option>
+            <option value="Combos">Combos</option>
+            <option value="Bebidas">Bebidas</option>
+            <option value="Dulces">Dulces</option>
+        </select>
+
+        <div id="contenedorDulceria" class="grid-container">
+        </div>
     </main>
 
     <footer>
-        <p> Cinema Eclipse. Proyecto de Fundamentos de Tegnologias Web</p>
+        <p>Cinema Eclipse. Proyecto de Fundamentos de Tecnologías Web</p>
     </footer>
+
+    <script src="dulceria.js"></script>
 </body>
 </html>

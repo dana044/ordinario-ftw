@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #000000; 
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    gap: 20px;
+    font-weight: bold;
+}
+
+nav ul.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    padding: 40px 40px 100px; 
+}
+
+main > div {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+select {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+}
+
+#contenedorResenas {
+    max-width: 800px;
+    margin: 40px auto 0;
+    text-align: left;
+}
+
+.tarjeta-resena {
+    border: 2px solid #ffffff; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+}
+
+.header-resena {
+    margin-bottom: 10px;
+}
+
+.genero-tag {
+    color: #e50914; 
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.meta-resena {
+    color: #aaaaaa;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+.comentario-texto {
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

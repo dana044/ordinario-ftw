@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resenas_peliculas>
+    <pelicula id="1">
+        <titulo>Hereditary</titulo>
+        <genero>Terror</genero>
+        <calificacion>4.5</calificacion>
+        <autor>CinefiloOscuro99</autor>
+        <fecha>2023-10-14</fecha>
+        <comentario>Una obra maestra del terror moderno. Toni Collette ofrece una actuación desgarradora y visceral. Lo que hace que esta película sea verdaderamente aterradora no es solo lo sobrenatural, sino cómo retrata la putrefacción y el duelo de una familia.</comentario>
+    </pelicula>
+    <pelicula id="2">
+        <titulo>Eterno resplandor de una mente sin recuerdos</titulo>
+        <genero>Drama</genero>
+        <calificacion>5.0</calificacion>
+        <autor>MelancoliaCine</autor>
+        <fecha>2022-02-14</fecha>
+        <comentario>Profundamente conmovedora y visualmente inventiva. El guion de Charlie Kaufman explora la naturaleza de la memoria y el dolor del desamor de una manera brillante. Jim Carrey y Kate Winslet tienen una química dolorosamente real.</comentario>
+    </pelicula>
+    <pelicula id="3">
+        <titulo>Arrival</titulo>
+        <genero>Ciencia Ficcion</genero>
+        <calificacion>4.8</calificacion>
+        <autor>SciFiFanatic</autor>
+        <fecha>2024-01-20</fecha>
+        <comentario>Ciencia ficción inteligente y emocional. Denis Villeneuve logra que la lingüística sea visualmente fascinante. Es una reflexión profunda sobre el tiempo, el dolor y la comunicación. El giro final te dejará pensando durante días.</comentario>
+    </pelicula>
+    <pelicula id="4">
+        <titulo>As Above, So Below</titulo>
+        <genero>Terror</genero>
+        <calificacion>3.5</calificacion>
+        <autor>TerrorAddict</autor>
+        <fecha>2021-10-31</fecha>
+        <comentario>Un 'found footage' bastante subestimado. La claustrofobia de las catacumbas de París combinada con la mitología de los círculos del infierno de Dante crea una atmósfera asfixiante, aunque el tercer acto se vuelve un poco caótico.</comentario>
+    </pelicula>
+    <pelicula id="5">
+        <titulo>Shiva Baby</titulo>
+        <genero>Comedia</genero>
+        <calificacion>4.2</calificacion>
+        <autor>IndieLover</autor>
+        <fecha>2023-05-11</fecha>
+        <comentario>Una experiencia hilarante pero que induce a la ansiedad a niveles extremos. Retrata perfectamente la incomodidad claustrofóbica de las reuniones familiares con un tono agudo, sarcástico y una banda sonora tensa.</comentario>
+    </pelicula>
+    <pelicula id="6">
+        <titulo>Dune</titulo>
+        <genero>Accion</genero>
+        <calificacion>4.7</calificacion>
+        <autor>ArrakisNative</autor>
+        <fecha>2024-03-05</fecha>
+        <comentario>Una escala épica y un diseño de producción asombroso. Denis Villeneuve logra traducir lo inadaptable. Hans Zimmer eleva cada escena con su banda sonora. Es la adaptación monumental que esta obra literaria merecía.</comentario>
+    </pelicula>
+    <pelicula id="7">
+        <titulo>Before Sunrise</titulo>
+        <genero>Romance</genero>
+        <calificacion>5.0</calificacion>
+        <autor>RomanceCine</autor>
+        <fecha>2020-08-22</fecha>
+        <comentario>El romance más honesto del cine. Los diálogos fluyen con una naturalidad impresionante; realmente sientes que estás caminando por Viena con Celine y Jesse, enamorándote al mismo tiempo que ellos.</comentario>
+    </pelicula>
+    <pelicula id="8">
+        <titulo>Pitch Perfect</titulo>
+        <genero>Comedia</genero>
+        <calificacion>3.8</calificacion>
+        <autor>PopCornReviewer</autor>
+        <fecha>2019-12-01</fecha>
+        <comentario>Increíblemente divertida y con un ritmo perfecto. Las armonías vocales son pegadizas y el sentido del humor es ligero, sarcástico y genuinamente gracioso. Una comedia musical muy sólida.</comentario>
+    </pelicula>
+    <pelicula id="9">
+        <titulo>Black Swan</titulo>
+        <genero>Drama</genero>
+        <calificacion>4.6</calificacion>
+        <autor>ThrillerCritique</autor>
+        <fecha>2022-11-18</fecha>
+        <comentario>Un descenso a la locura visualmente deslumbrante. Natalie Portman está impecable en su retrato de la obsesión destructiva por la perfección artística. Darren Aronofsky en su máxima expresión.</comentario>
+    </pelicula>
+    <pelicula id="10">
+        <titulo>Mysterious Skin</titulo>
+        <genero>Drama</genero>
+        <calificacion>4.5</calificacion>
+        <autor>DramaRaw</autor>
+        <fecha>2021-09-09</fecha>
+        <comentario>Una película durísima y perturbadora, pero tratada con muchísima empatía por Gregg Araki. Aborda el trauma infantil y sus consecuencias de una forma cruda e inolvidable. No es fácil de ver, pero es necesaria.</comentario>
+    </pelicula>
+    <pelicula id="11">
+        <titulo>Shrek 2</titulo>
+        <genero>Comedia</genero>
+        <calificacion>4.9</calificacion>
+        <autor>AnimacionFan</autor>
+        <fecha>2024-05-18</fecha>
+        <comentario>Rara vez una secuela supera al original, pero Shrek 2 lo logra con creces. El humor inteligente, las referencias culturales y la secuencia de 'Holding Out for a Hero' son pura historia de la cultura pop y el cine animado.</comentario>
+    </pelicula>
+    <pelicula id="12">
+        <titulo>Mean Girls</titulo>
+        <genero>Comedia</genero>
+        <calificacion>4.5</calificacion>
+        <autor>FetchReviewer</autor>
+        <fecha>2023-10-03</fecha>
+        <comentario>Un clásico absoluto de la comedia adolescente. El guion de Tina Fey es afilado, inteligente y eternamente citable. Ha envejecido maravillosamente bien como sátira social de la escuela secundaria.</comentario>
+    </pelicula>
+    <pelicula id="13">
+        <titulo>Mulholland Drive</titulo>
+        <genero>Suspenso</genero>
+        <calificacion>4.8</calificacion>
+        <autor>LynchianDream</autor>
+        <fecha>2022-07-25</fecha>
+        <comentario>Un rompecabezas onírico y fascinante. No necesitas entender cada detalle lógico para sentir la inquietante magia oscura de Hollywood que transmite. La actuación de Naomi Watts es hipnótica.</comentario>
+    </pelicula>
+    <pelicula id="14">
+        <titulo>In the Mood for Love</titulo>
+        <genero>Romance</genero>
+        <calificacion>5.0</calificacion>
+        <autor>CineAsiatico</autor>
+        <fecha>2023-01-12</fecha>
+        <comentario>Estéticamente perfecta. Wong Kar-wai hace que cada plano parezca una pintura melancólica. Captura el anhelo del deseo reprimido y el amor no consumado con una elegancia visual insuperable.</comentario>
+    </pelicula>
+    <pelicula id="15">
+        <titulo>Twin Peaks</titulo>
+        <genero>Terror</genero>
+        <calificacion>4.9</calificacion>
+        <autor>DamnGoodCoffee</autor>
+        <fecha>2024-02-24</fecha>
+        <comentario>Ya sea la serie o "Fire Walk With Me", redefinió el medio. Una mezcla perfecta e irrepetible de misterio de un pueblo pequeño, terror surrealista, y parodia de telenovela. David Lynch en estado puro.</comentario>
+    </pelicula>
+    <pelicula id="16">
+        <titulo>City of God</titulo>
+        <genero>Accion</genero>
+        <calificacion>4.8</calificacion>
+        <autor>CinemaMundo</autor>
+        <fecha>2021-04-16</fecha>
+        <comentario>Cinética, brutal y rebosante de energía. El montaje es trepidante y la dirección impecable. Ofrece una mirada cruda, violenta pero profundamente humana a la vida en las favelas de Río de Janeiro.</comentario>
+    </pelicula>
+    <pelicula id="17">
+        <titulo>Oldboy</titulo>
+        <genero>Accion</genero>
+        <calificacion>4.7</calificacion>
+        <autor>VengeanceSeeker</autor>
+        <fecha>2023-08-30</fecha>
+        <comentario>Una historia de venganza implacable, poética y visceral. La famosa secuencia de pelea en el pasillo es legendaria por su técnica, y el giro argumental final te dejará el estómago revuelto y sin aliento.</comentario>
+    </pelicula>
+</resenas_peliculas>

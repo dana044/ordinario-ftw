@@ -111,3 +111,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main {
+        padding: 40px 20px 100px; 
+        font-size: medium;
+    }
+}

@@ -79,6 +79,7 @@ main {
     margin-top: 30px;
 }
 
+
 footer {
     text-align: center;
     padding: 20px;
@@ -87,4 +88,34 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main {
+        padding: 20px 15px 100px; 
+    }
+
+    .detalle-contenedor {
+        padding: 20px;
+    }
+
+    .detalle-bloque {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+
+    .detalle-bloque img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .info-texto {
+        text-align: center;
+    }
 }

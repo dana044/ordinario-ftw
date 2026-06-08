@@ -1,17 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Referencias a los elementos del DOM
     const contenedor = document.getElementById("contenedorResenas");
     const filtroCalificacion = document.getElementById("filtroCalificacion");
     const filtroGenero = document.getElementById("filtroGenero");
     const ordenFecha = document.getElementById("ordenFecha");
+    const txtBuscar = document.getElementById("txt");
+    const btnBuscar = document.getElementById("btn");
 
     let listaPeliculas = [];
 
+    function normalizarTexto(texto) {
+        return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    }
+
     fetch("reseñas.xml")
         .then(response => {
-            if (!response.ok) {
-                throw new Error("No se pudo recuperar el archivo XML de reseñas.");
-            }
+            if (!response.ok) throw new Error("No se pudo cargar las reseñas.");
             return response.text();
         })
         .then(dataString => {
@@ -19,28 +22,31 @@ document.addEventListener("DOMContentLoaded", () => {
             const xmlDoc = parser.parseFromString(dataString, "text/xml");
             const peliculasXml = xmlDoc.getElementsByTagName("pelicula");
 
-            listaPeliculas = Array.from(peliculasXml).map(pelicula => {
-                return {
-                    id: pelicula.getAttribute("id"),
-                    titulo: pelicula.getElementsByTagName("titulo")[0].textContent,
-                    genero: pelicula.getElementsByTagName("genero")[0].textContent,
-                    calificacion: parseFloat(pelicula.getElementsByTagName("calificacion")[0].textContent),
-                    autor: pelicula.getElementsByTagName("autor")[0].textContent,
-                    fecha: pelicula.getElementsByTagName("fecha")[0].textContent,
-                    comentario: pelicula.getElementsByTagName("comentario")[0].textContent
-                };
-            });
+            listaPeliculas = Array.from(peliculasXml).map(pelicula => ({
+                id: pelicula.getAttribute("id"),
+                titulo: pelicula.getElementsByTagName("titulo")[0].textContent,
+                genero: pelicula.getElementsByTagName("genero")[0].textContent,
+                calificacion: parseFloat(pelicula.getElementsByTagName("calificacion")[0].textContent),
+                autor: pelicula.getElementsByTagName("autor")[0].textContent,
+                fecha: pelicula.getElementsByTagName("fecha")[0].textContent,
+                comentario: pelicula.getElementsByTagName("comentario")[0].textContent
+            }));
 
             procesarYMostrarResenas();
         })
         .catch(error => {
-            console.error("Error al procesar las reseñas:", error);
-            contenedor.innerHTML = `<p class="error">Error al cargar las reseñas. Inténtalo más tarde.</p>`;
+            console.error("Error:", error);
+            contenedor.innerHTML = `<p class="error">Error al cargar las reseñas.</p>`;
         });
 
     filtroCalificacion.addEventListener("change", procesarYMostrarResenas);
     filtroGenero.addEventListener("change", procesarYMostrarResenas);
     ordenFecha.addEventListener("change", procesarYMostrarResenas);
+    btnBuscar.addEventListener("click", procesarYMostrarResenas);
+    
+    txtBuscar.addEventListener("keyup", (e) => {
+        if (e.key === "Enter") procesarYMostrarResenas();
+    });
 
     function procesarYMostrarResenas() {
         let peliculasFiltradas = [...listaPeliculas];
@@ -48,10 +54,17 @@ document.addEventListener("DOMContentLoaded", () => {
         const valCalificacion = filtroCalificacion.value;
         const valGenero = filtroGenero.value;
         const valOrden = ordenFecha.value;
+        const valBuscar = txtBuscar.value;
+
+        if (valBuscar.trim() !== "") {
+            peliculasFiltradas = peliculasFiltradas.filter(p => 
+                normalizarTexto(p.titulo).includes(normalizarTexto(valBuscar))
+            );
+        }
 
         if (valGenero !== "Todos") {
             peliculasFiltradas = peliculasFiltradas.filter(p => 
-                p.genero.toLowerCase().replace("ó", "o") === valGenero.toLowerCase()
+                normalizarTexto(p.genero) === normalizarTexto(valGenero)
             );
         }
 
@@ -65,12 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
         peliculasFiltradas.sort((a, b) => {
             const fechaA = new Date(a.fecha);
             const fechaB = new Date(b.fecha);
-            
-            if (valOrden === "recientes") {
-                return fechaB - fechaA; 
-            } else {
-                return fechaA - fechaB;
-            }
+            return valOrden === "recientes" ? fechaB - fechaA : fechaA - fechaB;
         });
 
         inyectarHtml(peliculasFiltradas);
@@ -80,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
         contenedor.innerHTML = "";
 
         if (peliculas.length === 0) {
-            contenedor.innerHTML = `<p class="sin-resultados">No hay reseñas</p>`;
+            contenedor.innerHTML = `<p class="sin-resultados">No hay reseñas que coincidan con la búsqueda.</p>`;
             return;
         }
 
@@ -102,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <p class="comentario-texto">"${p.comentario}"</p>
             `;
-
             contenedor.appendChild(tarjeta);
         });
     }

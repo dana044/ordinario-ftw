@@ -59,9 +59,34 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h3>${p.nombre}</h3>
                 <p class="descripcion-producto">${p.detalles}</p>
                 <p class="precio-producto">$${p.precio} MXN</p>
-                <a href="#" class="btn">Agregar</a>
+                <a href="#" class="btn btn-agregar">Agregar</a>
             `;
+
+            const botonAgregar = tarjeta.querySelector(".btn-agregar");
+            botonAgregar.addEventListener("click", () => {
+                agregarAlCarrito(p);
+            });
+
             contenedor.appendChild(tarjeta);
         });
+    }
+    
+    function agregarAlCarrito(producto) {
+        let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+        const itemExistente = carrito.find(item => item.id === producto.id);
+
+        if (itemExistente) {
+            itemExistente.cantidad++;
+        } else {
+            carrito.push({
+                id: producto.id,
+                nombre: producto.nombre,
+                precio: producto.precio,
+                cantidad: 1
+            });
+        }
+
+        localStorage.setItem("carrito", JSON.stringify(carrito));
     }
 });

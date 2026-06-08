@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             contenedor.innerHTML = `
                 <h2>${titulo}</h2>
                 <div class="detalle-bloque">
-                    <img src="img/${nombreImagen}" alt="${titulo}">
+                    <img src="img/peliculas/${nombreImagen}" alt="${titulo}">
                     <div class="info-texto">
                         <p><strong>Género / Categoría:</strong> ${categoria}</p>
                         <p><strong>Duración:</strong> ${duracion}</p>

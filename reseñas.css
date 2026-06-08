@@ -44,6 +44,25 @@ main > div {
     margin: 10px 15px;
 }
 
+input {
+    background-color: #333333;
+    padding: 4px 10px;
+    color: white;
+}
+
+button{
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 select {
     background-color: #333333;
     color: #ffffff;

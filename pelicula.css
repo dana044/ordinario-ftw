@@ -35,7 +35,6 @@ main {
 }
 
 .detalle-contenedor {
-    border: 2px solid #ffffff;
     padding: 40px;
     max-width: 900px;
     margin: 0 auto;
@@ -57,7 +56,6 @@ main {
 
 .detalle-bloque img {
     width: 300px;
-    border: 2px solid #ffffff;
     border-radius: 5px;
     object-fit: cover;
 }

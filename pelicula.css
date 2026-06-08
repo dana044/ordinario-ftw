@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 
 body {
@@ -32,15 +32,6 @@ nav ul.menu li a {
 main {
     text-align: center;
     padding: 40px 40px 100px; 
-}
-
-.filtros-contenedor {
-    margin-bottom: 30px;
-}
-
-.filtros-contenedor div {
-    display: inline-block;
-    margin: 10px 20px;
 }
 
 .detalle-contenedor {

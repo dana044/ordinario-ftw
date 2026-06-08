@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu_dulceria>
+
+    <producto id="1">
+        <nombre>Refresco</nombre>
+        <categoria>bebidas</categoria>
+        <detalles>Vaso de 1 litro. Sabores disponibles: Cola, Cola Light, Manzana, Naranja y Lima-Limón.</detalles>
+        <precio>85.00</precio>
+    </producto>
+
+    <producto id="2">
+        <nombre>ICEE</nombre>
+        <categoria>bebidas</categoria>
+        <detalles>Bebida frappé clásica de cine. Puedes combinar ambos sabores en un vaso grande.</detalles>
+        <precio>95.00</precio>
+    </producto>
+
+    <producto id="3">
+        <nombre>Agua Natural</nombre>
+        <categoria>bebidas</categoria>
+        <detalles>Botella de agua purificada de 600ml, fría o al tiempo.</detalles>
+        <precio>40.00</precio>
+    </producto>
+
+    <producto id="4">
+        <nombre>Palomitas de Mantequilla</nombre>
+        <categoria>snacks</categoria>
+        <detalles>Tamaño grande. Palomitas de maíz calientitas y crujientes con doble mantequilla.</detalles>
+        <precio>110.00</precio>
+    </producto>
+
+    <producto id="5">
+        <nombre>Palomitas Acarameladas</nombre>
+        <categoria>snacks</categoria>
+        <detalles>Tamaño mediano. Cubiertas con una capa de caramelo artesanal dulce y crujiente.</detalles>
+        <precio>125.00</precio>
+    </producto>
+
+    <producto id="6">
+        <nombre>Palomitas Fuego</nombre>
+        <categoria>snacks</categoria>
+        <detalles>Tamaño grande. Palomitas espolvoreadas con chile y limón nivel extremo.</detalles>
+        <precio>120.00</precio>
+    </producto>
+
+    <producto id="7">
+        <nombre>Nachos</nombre>
+        <categoria>alimentos</categoria>
+        <detalles>Totopos de maíz crujientes bañados con abundante queso cheddar caliente y jalapeños.</detalles>
+        <precio>90.00</precio>
+    </producto>
+
+    <producto id="8">
+        <nombre>Hot Dog</nombre>
+        <categoria>alimentos</categoria>
+        <detalles>Salchicha de pavo gigante en pan artesanal. Incluye bolsitas de catsup y mostaza.</detalles>
+        <precio>85.00</precio>
+    </producto>
+
+    <producto id="9">
+        <nombre>Pizza de Pepperoni</nombre>
+        <categoria>alimentos</categoria>
+        <detalles>Pizza de 4 rebanadas con masa delgada, queso mozzarella fundido y pepperoni.</detalles>
+        <precio>135.00</precio>
+    </producto>
+
+    <producto id="10">
+        <nombre>Cornetto</nombre>
+        <categoria>postres</categoria>
+        <detalles>Helado de vainilla con cubierta de chocolate crujiente y almendras en cono de galleta.</detalles>
+        <precio>55.00</precio>
+    </producto>
+
+    <producto id="11">
+        <nombre>Crepa</nombre>
+        <categoria>postres</categoria>
+        <detalles>Crepa recién hecha, rellena de abundante Nutella. Opción de agregar plátano o fresa.</detalles>
+        <precio>85.00</precio>
+    </producto>
+
+    <producto id="12">
+        <nombre>Brownie con Helado</nombre>
+        <categoria>postres</categoria>
+        <detalles>Bizcocho de chocolate fundido servido caliente con una bola de helado de vainilla encima.</detalles>
+        <precio>75.00</precio>
+    </producto>
+
+    <producto id="13">
+        <nombre>Queso Extra</nombre>
+        <categoria>extras</categoria>
+        <detalles>Porción adicional de queso cheddar caliente (ideal para nachos o hot dogs).</detalles>
+        <precio>25.00</precio>
+    </producto>
+
+    <producto id="14">
+        <nombre>Refill de Palomitas</nombre>
+        <categoria>extras</categoria>
+        <detalles>Rellena tu canasta grande de palomitas clásicas presentando tu ticket el mismo día.</detalles>
+        <precio>35.00</precio>
+    </producto>
+
+    <producto id="15">
+        <nombre>Jalapenos Extra</nombre>
+        <categoria>extras</categoria>
+        <detalles>Porción extra de chiles jalapeños en rodajas para darle más sabor a tus alimentos.</detalles>
+        <precio>15.00</precio>
+    </producto>
+
+</menu_dulceria>

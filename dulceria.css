@@ -29,12 +29,7 @@ nav ul.menu li a {
     text-decoration: none;
 }
 
-.filtros-contenedor div {
-    display: inline-block;
-    margin: 10px 20px;
-}
-
-h2{
+h2 {
     font-size: 30px;
     padding: 20px;
 }
@@ -45,49 +40,62 @@ main {
     margin-bottom: 80px;
 }
 
-
-input[type="date"] {
-    background-color: #333333;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    padding: 4px 10px;
-    font-size: 16px;
+.filtros-contenedor {
+    margin-bottom: 30px;
 }
 
 select {
     background-color: #333333;
     color: #ffffff;
     border: 1px solid #ffffff;
-    padding: 4px 10px;
+    padding: 6px 15px;
     font-size: 16px;
+    border-radius: 4px;
 }
 
-
-.contenedor-cartelera {
+.contenedor-dulceria {
     display: grid;       
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px; 
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px; 
+    max-width: 900px;
     margin: 0 auto; 
-    padding: 50px;
+    padding: 20px;
 }
 
-.tarjeta-pelicula {
-    padding: 15px;
+.tarjeta-producto {
+    padding: 20px;
     text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-
-.tarjeta-pelicula img {
-    width: 220px; 
-    height: 350px; 
-    border-radius: 3px;
+.tarjeta-producto img {
+    width: 250px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px;
     margin-bottom: 15px;
 }
 
-.tarjeta-pelicula h3 {
-    margin-bottom: 15px;
+.tarjeta-producto h3 {
+    margin-bottom: 10px;
     font-size: 20px;
+    color: #ffffff;
+}
+
+.descripcion-producto {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.precio-producto {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #e50914; 
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -99,7 +107,7 @@ select {
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 20px;
+    cursor: pointer;
 }
 
 footer {

@@ -77,14 +77,12 @@ main {
 }
 
 .bloque-texto h2 {
-    font-family: monospace, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
 .bloque-texto p {
-    font-family: monospace, sans-serif;
     text-transform: uppercase;
     line-height: 1.8;
     margin-bottom: 30px;

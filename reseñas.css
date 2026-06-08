@@ -49,6 +49,7 @@ select {
     color: #ffffff;
     border: 1px solid #ffffff;
     padding: 5px 10px;
+    font-size: 16px;
 }
 
 #contenedorResenas {

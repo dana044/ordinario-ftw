@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                          .replace(/ /g, "-") + ".jpg";
 
             tarjeta.innerHTML = `
-                <img src="img/${nombreImagen}" alt="${p.titulo}">
+                <img src="img/peliculas/${nombreImagen}" alt="${p.titulo}">
                 <h3>${p.titulo}</h3>
                 <div class="horarios-contenedor">
                     <strong>Horarios:</strong>

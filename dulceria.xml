@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu_dulceria SYSTEM "dulceria.dtd">
+
 <menu_dulceria>
 
     <producto id="1">

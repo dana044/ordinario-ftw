@@ -1,0 +1,10 @@
+<!ELEMENT resenas_peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, genero, calificacion, autor, fecha, comentario)>
+<!ATTLIST pelicula 
+          id CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT calificacion (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>

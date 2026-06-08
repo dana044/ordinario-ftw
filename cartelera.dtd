@@ -1,0 +1,11 @@
+<!ELEMENT cartelera_peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, actores, sinopsis, categoria, duracion, horarios, fechas_transmision)>
+<!ATTLIST pelicula 
+          id CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT actores (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT horarios (#PCDATA)>
+<!ELEMENT fechas_transmision (#PCDATA)>

@@ -1,0 +1,8 @@
+<!ELEMENT menu_dulceria (producto+)>
+<!ELEMENT producto (nombre, categoria, detalles, precio)>
+<!ATTLIST producto 
+          id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT detalles (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

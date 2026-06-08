@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Referencias al DOM
     const tituloPelicula = document.getElementById("tituloPelicula");
     const comboHorario = document.getElementById("comboHorario");
     
-    // Nuevos inputs manuales
     const inputCantidad = document.getElementById("cantidadBoletos");
     const inputAsientos = document.getElementById("asientosEscritos");
     
@@ -12,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalVentaSpan = document.getElementById("totalVenta");
     const btnAlCarrito = document.getElementById("btnAlCarrito");
 
-    // Obtener el ID de la película desde la URL
     const parametrosUrl = new URLSearchParams(window.location.search);
     const idPelicula = parametrosUrl.get("id");
     
@@ -24,7 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    // 1. Cargar datos desde cartelera.xml
     fetch("cartelera.xml")
         .then(response => response.text())
         .then(xmlString => {
@@ -55,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Error cargando XML:", error));
 
-    // 2. Escuchar cambios en los inputs para actualizar el resumen
     inputCantidad.addEventListener("input", actualizarResumen);
     inputAsientos.addEventListener("input", actualizarResumen);
 
@@ -70,7 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
         totalVentaSpan.textContent = `$${total.toFixed(2)}`;
     }
 
-    // 3. Validar y Guardar en el Carrito
     btnAlCarrito.addEventListener("click", () => {
         const cantidad = parseInt(inputCantidad.value) || 0;
         const asientosTexto = inputAsientos.value.trim();
@@ -89,11 +83,10 @@ document.addEventListener("DOMContentLoaded", () => {
         
         const horarioElegido = comboHorario.value;
         
-        // Creamos el objeto del ticket
         const nuevoTicket = {
             id: `TICKET-${idPelicula}-${Date.now()}`,
             nombre: `Boletos: ${datosPelicula.titulo} (${horarioElegido}) [Asientos: ${asientosTexto}]`,
-            precio: PRECIO_BOLETO, // En el carrito se multiplicará precio * cantidad
+            precio: PRECIO_BOLETO,
             cantidad: cantidad
         };
 
@@ -101,6 +94,5 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("carrito", JSON.stringify(carrito));
         
         alert("¡Boletos añadidos a tu carrito con éxito!");
-        window.location.href = "carrito.html";
     });
 });

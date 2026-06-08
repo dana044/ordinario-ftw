@@ -44,14 +44,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const generoSeleccionado = filtroGenero.value;
         const fechaSeleccionada = filtroFecha.value;
 
-        // Filtrar por Género
         if (generoSeleccionado !== "Todos") {
             peliculasFiltradas = peliculasFiltradas.filter(p => 
                 normalizarTexto(p.categoria) === normalizarTexto(generoSeleccionado)
             );
         }
 
-        // Filtrar por Fecha
         if (fechaSeleccionada) {
             peliculasFiltradas = peliculasFiltradas.filter(p => 
                 p.fechas.includes(fechaSeleccionada)

@@ -23,7 +23,7 @@
     <main>
         <h2>Tu Carrito de Compras</h2>
 
-        <div class="carrito-contenedor">
+        <div class="contenedor">
             <table class="tabla-carrito">
                 <thead>
                     <tr>
@@ -36,18 +36,14 @@
                     </tbody>
             </table>
             <h3 class="total-texto">Total: $<span id="totalCarrito">0.00</span> MXN</h3>
-        </div>
-
-        <div class="pago-contenedor">
-            <h3>Información de Pago</h3>
-            <input type="text" id="nombreTarjeta" placeholder="Nombre en la Tarjeta" required>
-            <input type="text" id="numTarjeta" placeholder="Número de Tarjeta (16 dígitos)" maxlength="16" required>
-            
-            <div>
+            <br>
+            <div class="infoPago">
+                <h3>Información de Pago</h3>
+                <input type="text" id="nombreTarjeta" placeholder="Nombre en la Tarjeta" required>
+                <input type="text" id="numTarjeta" placeholder="Número de Tarjeta (16 dígitos)" maxlength="16" required>
                 <input type="text" id="expTarjeta" placeholder="MM/AA" maxlength="5" required>
                 <input type="password" id="cvvTarjeta" placeholder="CVV" maxlength="3" required>
             </div>
-            
             <button id="btnPagar" class="btn">Pagar Ahora</button>
         </div>
         

@@ -82,6 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p>${p.horarios}</p>
                 </div>
                 <a href="pelicula.html?id=${p.id}" class="btn">Información</a>
+                <a href="comprar-boletos.html?id=${p.id}" class="btn">Comprar</a>
             `;
             contenedor.appendChild(tarjeta);
         });
